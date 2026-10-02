@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="880" viewBox="0 0 1120 880" role="img" aria-labelledby="title desc">
+<title id="title">Arquitectura de MotoYa</title><desc id="desc">Clientes Flutter invocan Cloud Functions para operaciones críticas. Lecturas autorizadas desde Firestore. Repositorios y adaptadores conectan dominio con Firebase, mapas y avisos.</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#475569"/></marker></defs>
+<rect width="1120" height="880" fill="#f8fafc"/>
+<g font-family="Arial, sans-serif" fill="#172033">
+<text x="55" y="55" font-size="30" font-weight="bold">MotoYa · Arquitectura de software</text>
+<text x="55" y="86" font-size="17" fill="#64748b">Cliente-servidor · Firebase BaaS · Funciones serverless · Capas lógicas</text>
+<rect x="55" y="120" width="700" height="142" rx="16" fill="#fff1f2" stroke="#e11d48"/>
+<text x="80" y="151" font-size="19" font-weight="bold">CLIENTES · Presentación y aplicación</text>
+<text x="80" y="185" font-size="18">Flutter Android: pasajero / conductor</text>
+<text x="80" y="215" font-size="18">Flutter Web: soporte / administrador / dueño / contador</text>
+<text x="80" y="243" font-size="16">Riverpod · Casos de uso · Interfaces de repositorio</text>
+<rect x="810" y="120" width="255" height="142" rx="16" fill="#eff6ff" stroke="#2563eb"/>
+<text x="835" y="156" font-size="19" font-weight="bold">Firebase Auth</text>
+<text x="835" y="188" font-size="16">Identidad y tokens</text>
+<text x="835" y="215" font-size="16">Segundo factor del panel</text>
+<path d="M755 185H808" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M405 262V320" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="422" y="297" font-size="15">Comandos críticos con token</text>
+<rect x="55" y="323" width="700" height="153" rx="16" fill="#eef2ff" stroke="#6366f1"/>
+<text x="80" y="357" font-size="19" font-weight="bold">BACKEND · Cloud Functions</text>
+<text x="80" y="390" font-size="17">Autorización por rol y recurso · Casos de uso del servidor</text>
+<text x="80" y="421" font-size="17">Dominio: elegibilidad, asignación, PIN, estados y comisión</text>
+<text x="80" y="452" font-size="16">Transacciones · Idempotencia · Auditoría · Revisión de recargas</text>
+<path d="M937 262V394H758" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="808" y="367" font-size="15">Verificar identidad</text>
+<path d="M405 476V522" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="55" y="525" width="1010" height="93" rx="16" fill="#ecfdf5" stroke="#059669"/>
+<text x="80" y="558" font-size="19" font-weight="bold">ACCESO A DATOS E INFRAESTRUCTURA</text>
+<text x="80" y="590" font-size="17">Repositorios · Puertos · Adaptadores de persistencia, mapas y notificaciones</text>
+<path d="M170 618V661M430 618V661M690 618V661M950 618V661" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="55" y="665" width="240" height="108" rx="13" fill="#ffffff" stroke="#94a3b8"/>
+<rect x="312" y="665" width="240" height="108" rx="13" fill="#ffffff" stroke="#94a3b8"/>
+<rect x="569" y="665" width="240" height="108" rx="13" fill="#ffffff" stroke="#94a3b8"/>
+<rect x="826" y="665" width="239" height="108" rx="13" fill="#ffffff" stroke="#94a3b8"/>
+<text x="76" y="699" font-size="19" font-weight="bold">Firestore</text>
+<text x="76" y="729" font-size="16">Viajes y movimientos</text><text x="76" y="753" font-size="16">Estado y posición actual</text>
+<text x="333" y="699" font-size="19" font-weight="bold">Storage privado</text>
+<text x="333" y="729" font-size="16">Documentos y evidencia</text><text x="333" y="753" font-size="16">Acceso autorizado</text>
+<text x="590" y="699" font-size="19" font-weight="bold">Google Maps</text>
+<text x="590" y="729" font-size="16">Mapas, rutas y búsqueda</text><text x="590" y="753" font-size="16">Alternativas por adaptador</text>
+<text x="847" y="699" font-size="19" font-weight="bold">FCM y SMS</text>
+<text x="847" y="729" font-size="16">Avisos con reintentos</text><text x="847" y="753" font-size="16">Envío ≠ atención humana</text>
+<path d="M55 225H24V719H53" fill="none" stroke="#475569" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<text x="55" y="814" font-size="16">Línea discontinua: lecturas del cliente y listeners sujetos a reglas por recurso.</text>
+<text x="55" y="843" font-size="16" font-weight="bold">Pago del pasajero directo al conductor · Saldo y comisión bajo autoridad del servidor</text>
+</g></svg>
